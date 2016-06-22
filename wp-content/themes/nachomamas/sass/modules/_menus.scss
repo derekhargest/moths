@@ -1,0 +1,68 @@
+.location-menus{
+  & > .menu{
+    margin-bottom: 3em;
+  }
+  .menu{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid $c-light-brown;
+    padding-bottom: 4em;
+    h4{
+      font-size: 2em;
+      font-weight: 900;
+      font-family: $font-stack-heading;
+      letter-spacing: .05em;
+    }
+    .menu-content{
+      @include span(6 of 8);
+      p{
+        font-size: 1.125em;
+        margin-top: 2em;
+        letter-spacing: .05em;
+      }
+    }
+    .menu-buttons{
+      width: 100%;
+      float: left;
+      margin-top: 3.75em;
+      .button{
+        @include span(2 of 8);
+        background: $c-green;
+          span{
+            color: $c-white;
+          }
+
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1140px){
+  .location-menus .menu{
+    h4{
+      line-height: 1em;
+      margin-bottom: .5em;
+    }
+    span.number{
+      width: 100%;
+      display: block;
+    }
+    .menu-buttons{
+      margin-top: 2em;
+      .button{
+          width: 100%;
+          margin-bottom: 1.5em;
+      }
+    }
+    .button{
+      width: 100%;
+    }
+    .menu-content{
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  }
+}

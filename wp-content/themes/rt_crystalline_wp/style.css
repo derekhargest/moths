@@ -1,0 +1,45 @@
+/*
+
+Theme Name: ManaCrystal
+
+Theme URI: http://www.manaferra.com
+
+Description: ManaCrystal Theme for Mamas on the Halfshell
+
+Version: 1.0
+
+Author: Manaferra, N.SH.
+
+Author URI: http://goo.gl/FfmEgN
+
+*/
+
+
+
+element.style {
+
+width: 100%;
+
+text-align: center;
+
+display: inline-block;
+
+}
+
+
+
+body #rt-logo {
+
+width: 489px;
+
+height: 125px;
+
+display: inherit;
+
+float: none;
+
+}
+
+
+
+html body .header-overlay-bg {background: #000000 url(/MamasSite/wp-content/themes/rt_crystalline_wp/images/overlays/patterns/bg.jpg) no-repeat 50% 0 !important;}

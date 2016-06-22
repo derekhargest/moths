@@ -1,0 +1,140 @@
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+);
+
+#main{
+	@include clearfix;
+}
+
+.container{
+	@include container(1410px);
+	@include clearfix;
+  padding-left: 3%;
+  padding-right: 3%;
+  &.page{
+    padding-top: 3em;
+  }
+}
+
+article > .content-container, .single-product .content-container{
+  padding-top: 5em;
+}
+
+.site-header-main.page-header{
+	.main-navigation{
+		@include container(1374px);
+    @include clearfix;
+    width: 100%;
+    padding: 1em 2.5%;
+	}
+}
+
+.content-container{
+  @include span(12 of 12);
+  margin: 0 auto;
+  @include clearfix;
+
+  .entry-content{
+    padding-top: 2em;
+  }
+}
+
+.page-content{
+  @include span(8 of 10 last);
+  float: none;
+  margin: 0 auto;
+  @include clearfix;
+  margin-top: 2.5em;
+}
+
+.single{
+  .page-content{
+    p{
+      font-size: 1.5em;
+      line-height: 1.25em;
+    }
+  }
+}
+
+.site-main{
+  background: $c-white;
+}
+
+section.quotes{
+  display: block;
+  margin: 5em 0;
+}
+
+.content-area{
+  &.secondary{
+    background: $c-white;
+    margin-top: 3em;
+  }
+  &.team-list{
+    background: $c-white;
+  }
+}
+
+#instafeed{
+  margin-top: 2.5em;
+
+   a{
+    @include span(2 of 8);
+    margin-bottom: 1.875em;
+    &:nth-child(4n){
+      @include span(2 of 8 last);
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.insta-feed{
+  .button{
+    width: auto;
+  }
+}
+
+@media (min-width: 800px){
+
+  .content-area{
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1140px){
+  .content-container{
+    width: 91.295%;
+    margin: 0 auto;
+  }
+  .content-container{
+    @include container(1170px);
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 0;
+      &.bottom{
+        margin-top: 3em;
+      }
+  }
+  .content-container.secondary{
+    margin-bottom: 9em;
+  }
+  .content-container .entry-content{
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1260px){
+  .content-container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1260px){
+  .home-item{
+    width: 100%;
+  }
+}

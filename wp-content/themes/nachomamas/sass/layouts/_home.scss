@@ -1,0 +1,132 @@
+.home-item{
+  background: $c-green;
+  overflow: hidden;
+  margin-bottom: 5em;
+  h3{
+    font-family: $font-stack-heading;
+    color: $c-white;
+    padding-top: 1.5em;
+    line-height: 1.25em;
+    text-align: center;
+    font-weight: 500;
+  }
+  .home-image{
+    @include span(6 of 9);
+    margin-right: 0;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .home-content{
+    width: 28.81%;
+    float: right;
+    padding: 0 2.6383%;
+    position: relative;
+  }
+
+  .button-wrap{
+    position: absolute;
+    bottom: 2em;
+    width: 84.5%;
+  }
+  .button{
+    max-width: 230px;
+    margin: 0 auto;
+    span{
+      padding-right: .5em;
+    }
+  }
+}
+
+.home-item:nth-child(odd){
+  @include span(10 of 10 last);
+  .home-content{
+    float: right;
+  }
+  .home-image{
+    float: left;
+  }
+}
+
+.home-item:nth-child(even){
+  @include span(10 of 10);
+  .home-image{
+    float: right;
+  }
+  .home-content{
+    float: left;
+  }
+}
+
+.home-item:nth-child(2){
+  background: $c-dark-blue;
+}
+
+.home-item:nth-child(3){
+  background: $c-dark-gray;
+}
+
+.home .content-title{
+  margin-bottom: 5em;
+}
+@media (max-width: 1260px){
+.home-item{
+  &:nth-child(even), &:nth-child(odd) {
+    width: 100%;
+  }
+  h3{
+    font-size: 2em;
+  }
+}
+}
+
+@media (max-width: 900px){
+  .home-item h3{
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 700px){
+  .home-item{
+    .button-wrap{
+      position: relative;
+      width: 100%;
+      margin: 1.5em 0;
+      bottom: 0;
+    }
+    .home-content{
+      width: 80%;
+      float: none;
+      padding: 0;
+    }
+    &:nth-child(even), &:nth-child(odd) {
+      h3{
+        font-size: 2em;
+        text-align: center;
+      }
+      .home-content{
+        margin: 0 auto;
+        float: left;
+        padding: 0 10%;
+      }
+    }
+    .home-image{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 450px){
+  .home-item .home-content{
+    &:nth-child(even), &:nth-child(odd) {
+      h3{
+        font-size: 1.5em;
+        text-align: center;
+      }
+    }
+  }
+  .home h1.entry-title{
+    font-size: 1.5em;
+  }
+}

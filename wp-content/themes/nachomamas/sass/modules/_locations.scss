@@ -1,0 +1,84 @@
+.locations{
+  .location-item{
+    @include clearfix;
+    padding-bottom: 5em;
+    border-bottom: 1px solid $c-light-brown;
+    margin-bottom: 4em;
+    &.last{
+      margin-bottom: 0;
+    }
+    .location-map{
+      @include span(3 of 8);
+      margin-right: 5.1282%;
+      #map, #map2{
+        min-height: 240px;
+      }
+    }
+    .location-content{
+      width: 33.3334%;
+      float: left;
+      h3{
+        font-weight: 900;
+        font-size: 2em;
+        line-height: 1em;
+        margin-bottom: .75em;
+      }
+      p, address{
+        font-size: 1em;
+        font-weight: 600;
+      }
+      a{
+        font-size: 1em;
+        font-weight: 600;
+      }
+    }
+    .location-hours{
+      @include span(2 of 8 last);
+      h4{
+        font-weight: 900;
+        font-size: 1.5em;
+        line-height: 1em;
+        margin-bottom: 1.25em;
+      }
+      p{
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .button{
+        background: $c-green;
+        margin-top: 2.65em;
+        box-shadow: 0px 3px 1px $c-dark-blue;
+        span{
+          color: $c-white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1050px){
+  .locations .location-item{
+    .location-map{
+      width: 100%;
+      margin-right: 0;
+      #map, #map2{
+        margin: 0 auto;
+        float: none;
+        display: block;
+      }
+    }
+    .location-content, .location-hours{
+      margin: 0 auto;
+      margin-top: 2em;
+      width: 100%;
+      h3, address, p, h4, a{
+        text-align: center;
+      }
+      a{
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+}

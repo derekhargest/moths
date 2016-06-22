@@ -1,0 +1,54 @@
+.cta-section{
+  background: $c-brown;
+  transition: all linear 200ms;
+  box-shadow: 0px 3px 2px #511403;
+  width: 100%;
+  float: left;
+  &:hover{
+    background: darken($c-brown, 20%);
+  }
+}
+
+.cta-section a{
+  width: 100%;
+  display: block;
+  text-decoration: none;
+ span{
+  width: 100%;
+  display: block;
+  text-align: center;
+  @include clearfix;
+  color: $c-white !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 3em;
+  border: 0;
+  text-transform: uppercase;
+  &::after {
+    content: '\2192';
+    padding-left: 0.75em;
+    font-size: .75em;
+    line-height: 3.2em;
+    position: relative;
+    bottom: .065em;
+  }
+}
+}
+
+@media (min-width: 585px){
+  .cta-section a span{
+    font-size: 1.675em;
+  }
+}
+
+@media (min-width: 1140px){
+  .cta-section a span{
+    font-size: 1.675em;
+  }
+}
+@media (max-width: 700px){
+  .cta-section a span{
+      font-size: 1.5em;
+  }
+}

@@ -1,0 +1,30 @@
+.cart_totals{
+  h2{
+    color: $c-red-orange;
+    font-weight: 900;
+    margin-bottom: 1em;
+  }
+}
+
+.woocommerce td.product-name dl.variation dd, .woocommerce td.product-name dl.variation dt{
+  margin-bottom: 0;
+  p{
+    font-size: 1em;
+  }
+
+}
+
+.woocommerce-cart table.cart input.input-text, .select2-drop {
+  border: 1px solid #ccc;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{
+  border: 1px solid #ccc;
+}
+
+.checkout{
+  h3{
+    font-size: 1.25em;
+    font-weight: 900;
+  }
+}
