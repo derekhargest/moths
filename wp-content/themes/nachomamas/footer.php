@@ -59,11 +59,11 @@
 
 			<ul>
 
-				<li><a href="#" target="_blank"><span class="icon-facebook-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span></a></li>
+				<li><a href="https://www.facebook.com/mamasonthehalfshell/" target="_blank"><span class="icon-facebook-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span></a></li>
 
-				<li><a href="#" target="_blank"><span class="icon-twitter-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span></a></li>
+				<li><a href="https://twitter.com/MamasHalfShell" target="_blank"><span class="icon-twitter-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span></a></li>
 
-				<li><a href="#" target="_blank"><span class="icon-instagram-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span></a></li>
+				<li><a href="https://www.instagram.com/mamasonthehalfshell/" target="_blank"><span class="icon-instagram-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span></a></li>
 
 			</ul>
 

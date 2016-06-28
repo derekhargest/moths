@@ -16,8 +16,6 @@ get_header(); ?>
 
 		<div id="content-block">
 
-		<?php get_template_part( 'template-parts/cta-link' ); ?>
-
 		<?php
 
 		while ( have_posts() ) : the_post();
@@ -33,15 +31,14 @@ get_header(); ?>
       <div class="locations">
 				<div class="location-item">
 					<div class="location-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.0921266604076!2d-76.57563247255753!3d39.27989263191174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8038ba65deadd%3A0xc3690a9bd071fb69!2sNacho+Mama&#39;s!5e0!3m2!1sen!2sus!4v1464710822019" id="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12353.473150456857!2d-76.5752934!3d39.2798976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x843e6c7ef10ea272!2sMama&#39;s+On+the+Half+Shell!5e0!3m2!1sen!2sus!4v1467137419076" id="map" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 					<div class="location-content">
 						<h3>Canton</h3>
-						<address>2907 O'Donnell St,<br />
+						<address>2901 O'Donnell St,<br />
 							 Baltimore, MD 21224<br /></address>
-								<p>T: 410-675-0898</p>
-								<p>Carryout: 410-342-2922</p>
-								<a href="https://goo.gl/maps/4pnTeAN4dE32">Get Directions</a>
+								<p>T: 410-276-3160</p>
+								<a href="https://goo.gl/maps/YtwsbY4iP9z">Get Directions</a>
 
 					</div>
 					<div class="location-hours">
