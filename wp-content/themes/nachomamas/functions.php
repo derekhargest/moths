@@ -76,15 +76,12 @@ function wc_loop_shop_columns( $number_columns ) {
 
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
 
-add_filter( 'woocommerce_product_add_to_cart_text' , 'custom_woocommerce_product_add_to_cart_text' );
-function custom_woocommerce_product_add_to_cart_text() {
-    global $product;
-    $product_type = $product->product_type;
-    switch ( $product_type ) {
-case 'variable':
-            return __( 'See More', 'woocommerce' );
-        break;
-}
+add_filter( 'woocommerce_product_add_to_cart_text', 'woo_archive_custom_cart_button_text' );    // 2.1 +
+
+function woo_archive_custom_cart_button_text() {
+
+        return __( 'See More', 'woocommerce' );
+
 }
 
 function wc_remove_related_products( $args ) {
