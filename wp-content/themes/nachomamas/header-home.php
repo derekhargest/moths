@@ -61,7 +61,7 @@
             <?php endif; ?>
 				</div>
 				<div class="mobile-logo">
-						<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home' class="header-logo"><img src='<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/mobile-logo.png' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
+						<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home' class="header-logo"><img src='<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/logo.png' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
 				</div>
 
 			</div>

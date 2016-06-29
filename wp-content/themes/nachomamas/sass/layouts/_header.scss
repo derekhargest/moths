@@ -315,6 +315,12 @@ header{
 	}
 }
 
+@media (max-width: 440px){
+	.site-header-main.standard .header-logo{
+		width: 40% !important;
+	}
+}
+
 @media (min-width: 1140px){
 	.logo{
 		height: 4.16em;
@@ -427,7 +433,7 @@ header{
 	.site-header-main.standard{
 		padding: 0;
 		.header-logo{
-			width: 50%;
+			width: 30%;
 		}
 	}
 }

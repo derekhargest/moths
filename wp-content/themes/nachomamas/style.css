@@ -1299,6 +1299,11 @@ header {
     padding-left: 10px;
   }
 }
+@media (max-width: 440px) {
+  .site-header-main.standard .header-logo {
+    width: 40% !important;
+  }
+}
 @media (min-width: 1140px) {
   .logo {
     height: 4.16em;
@@ -1414,7 +1419,7 @@ header {
     padding: 0;
   }
   .site-header-main.standard .header-logo {
-    width: 50%;
+    width: 30%;
   }
 }
 #footer {
