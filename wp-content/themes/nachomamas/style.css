@@ -351,6 +351,16 @@ small {
   line-height: 1em;
 }
 
+@media (max-width: 1040px) {
+  .woocommerce ul.products li.first {
+    clear: initial;
+  }
+}
+@media (max-width: 768px) {
+  .woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n), .woocommerce-page[class*=columns-] ul.products li.product:nth-child(2n), .woocommerce[class*=columns-] ul.products li.product:nth-child(2n) {
+    float: left !important;
+  }
+}
 .slicknav_btn {
   position: relative;
   top: 36%;
@@ -2416,7 +2426,7 @@ header {
   letter-spacing: normal;
   padding-left: 1em;
   padding-bottom: 0;
-  min-height: 44px;
+  min-height: 72px;
 }
 .woocommerce ul.products li.product .button, .woocommerce ul.products li.product #mc_embed_signup .button, #mc_embed_signup .woocommerce ul.products li.product .button, .woocommerce ul.products li.product button#load-more, .woocommerce ul.products li.product button#follow-us, .woocommerce ul.products li.product .prev-posts-link a, .prev-posts-link .woocommerce ul.products li.product a, .woocommerce ul.products li.product .next-posts-link a, .next-posts-link .woocommerce ul.products li.product a, .woocommerce-page ul.products li.product .button, .woocommerce-page ul.products li.product #mc_embed_signup .button, #mc_embed_signup .woocommerce-page ul.products li.product .button, .woocommerce-page ul.products li.product button#load-more, .woocommerce-page ul.products li.product button#follow-us, .woocommerce-page ul.products li.product .prev-posts-link a, .prev-posts-link .woocommerce-page ul.products li.product a, .woocommerce-page ul.products li.product .next-posts-link a, .next-posts-link .woocommerce-page ul.products li.product a {
   background: transparent;
@@ -2448,6 +2458,12 @@ header {
     width: 47.97959%;
   }
   .woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n) {
+    margin-right: 0;
+  }
+  .woocommerce ul.products li.product:nth-child(3n), .woocommerce-page ul.products li.product:nth-child(3n) {
+    margin-right: 2.04082%;
+  }
+  .woocommerce ul.products li.product:nth-child(6), .woocommerce-page ul.products li.product:nth-child(6) {
     margin-right: 0;
   }
 }
