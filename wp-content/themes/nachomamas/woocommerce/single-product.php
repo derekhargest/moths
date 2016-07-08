@@ -29,8 +29,6 @@ get_header( ); ?>
 
 	<div id="content-block">
 
-	<?php get_template_part( 'template-parts/cta-link' ); ?>
-
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.

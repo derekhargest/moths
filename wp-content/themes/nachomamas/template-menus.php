@@ -45,13 +45,13 @@ get_header(); ?>
 
 						<div class="menu-buttons">
 
-							<a href="<?php echo the_field('canton_dining_menu'); ?>" class="button"><span>Dining Menu</span></a>
+							<a href="<?php echo the_field('canton_dining_menu'); ?>" class="button"><span>Lunch &amp; Dinner</span></a>
 
-							<a href="<?php echo the_field('canton_specials_menu'); ?>" class="button"><span>Specials Menu</span></a>
+							<a href="<?php echo the_field('canton_specials_menu'); ?>" class="button"><span>Specials</span></a>
 
-							<a href="<?php echo the_field('canton_lunch_menu'); ?>" class="button"><span>Lunch Menu</span></a>
+							<a href="<?php echo the_field('canton_lunch_menu'); ?>" class="button"><span>Brunch</span></a>
 
-							<a href="<?php echo the_field('canton_margarita_menu'); ?>" class="button"><span>Margarita Menu</span></a>
+							<a href="<?php echo the_field('canton_margarita_menu'); ?>" class="button"><span>Crushes &amp; Cocktails</span></a>
 
 						</div>
 
