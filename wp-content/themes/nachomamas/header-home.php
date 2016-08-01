@@ -26,6 +26,7 @@
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/jquery.stellar.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/jquery.bxslider.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/instafeed.min.js"></script>
+		<script src="http://malsup.github.io/jquery.corner.js"></script>
 		<script src="https://use.fontawesome.com/d8d108ee0b.js"></script>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
