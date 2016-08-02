@@ -45,7 +45,7 @@ var currentTallest = 0,
         label: 'Menu',
       });
 
-      $(".home-item").corner("notch 30px");
+      $(".home-item").corner("bite 30px");
 
       $("#mobile-menu-location").height(headerHeightMobile);
 
