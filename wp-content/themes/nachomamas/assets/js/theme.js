@@ -51,12 +51,12 @@ var currentTallest = 0,
 
       if ($(window).width() < 700) {
         var bannerHeight = $(".banner-image").height();
-        $(".main-banner").height(bannerHeight);
+
       }
 
       if ($(window).width() > 700) {
         $(".home-content").height(homeItemHeight);
-        $(".main-banner").height(bannerHeight);
+
       }
 
 
@@ -78,13 +78,13 @@ var currentTallest = 0,
 
       if ($(window).width() < 700) {
         $(".home-content").height('auto');
-        $(".main-banner").height(bannerHeight);
+
       }
 
       if ($(window).width() > 700) {
 
             $(".home-content").height(homeItemHeight);
-            $(".main-banner").height(bannerHeight);
+
       }
 
 

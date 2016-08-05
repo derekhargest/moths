@@ -1144,10 +1144,6 @@ header {
   display: none;
 }
 
-.main-navigation {
-  display: none;
-}
-
 .logo .site-title span {
   display: block;
   text-indent: -999999px;
@@ -1372,6 +1368,10 @@ header {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
   }
+
+  .mobile-logo {
+    display: block;
+  }
 }
 @media (min-width: 1140px) and (max-width: 1491px) {
   .logo {
@@ -1389,6 +1389,20 @@ header {
   .slicknav_menu ul li a {
     padding: 1em 0;
     margin: 0 !important;
+  }
+}
+@media (max-width: 700px) {
+  .main-navigation {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .mobile-logo {
+    display: none !important;
+  }
+
+  .slicknav_btn {
+    display: none !important;
   }
 }
 @media (min-width: 1140px) and (max-width: 1640px) {
@@ -2058,13 +2072,15 @@ header {
   }
 }
 @media (min-width: 450px) {
-  .banner-overlay.home .overlay-logo, .banner-overlay-notitle.home .overlay-logo {
-    margin-top: 5.555em;
-  }
   .banner-overlay h2, .banner-overlay h3, .banner-overlay-notitle h2, .banner-overlay-notitle h3 {
     font-size: 2em;
     font-weight: 700;
     line-height: 1.15em;
+  }
+}
+@media (min-width: 1500px) {
+  .banner-overlay.home, .banner-overlay-notitle {
+    top: 8.75%;
   }
 }
 #banner {

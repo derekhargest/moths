@@ -112,15 +112,18 @@
 
 @media (min-width: 450px){
   .banner-overlay, .banner-overlay-notitle{
-    &.home .overlay-logo{
-      margin-top: 5.555em;
-    }
     h2,h3{
       font-size: 2em;
       font-weight: 700;
       line-height: 1.15em;
     }
   }
+}
+
+@media (min-width: 1500px){
+.banner-overlay.home, .banner-overlay-notitle{
+	top: 8.75%;
+}
 }
 
 #banner{
