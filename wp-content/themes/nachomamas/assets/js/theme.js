@@ -55,15 +55,11 @@ var currentTallest = 0,
       }
 
       if ($(window).width() > 700) {
-        document.getElementById("banner-overlay").style.paddingTop = Headheight + 'px';
-        document.getElementById("banner-overlay").style.paddingBottom = Headheight + 'px';
         $(".home-content").height(homeItemHeight);
         $(".main-banner").height(bannerHeight);
       }
 
-      if ($(window).width() < 1122) {
-          document.getElementById("banner-overlay").style.paddingBottom =  '0px';
-      }
+
 
       $(".slicknav_btn").height(headerHeightMobile);
 
@@ -86,14 +82,11 @@ var currentTallest = 0,
       }
 
       if ($(window).width() > 700) {
-          document.getElementById("banner-overlay").style.paddingTop = Headheight + 'px';
-          document.getElementById("banner-overlay").style.paddingBottom = Headheight + 'px';
+
             $(".home-content").height(homeItemHeight);
             $(".main-banner").height(bannerHeight);
       }
 
-      if ($(window).width() < 1122) {
-          document.getElementById("banner-overlay").style.paddingBottom =  '0px';
-      }
+
 
 		});
