@@ -291,8 +291,12 @@ class CMPopUpFlyInBackend {
 	}
 
 	public static function getWidgetForPage( $postId, $type = 'widget' ) {
-		if ( is_home() ) {
+		if ( is_home() && !is_front_page() ) {
 			$postId = get_option( 'page_for_posts' );
+		}
+
+		if ( is_home() && is_front_page() ) {
+			$postId = -1;
 		}
 
 		if ( empty( $postId ) ) {
@@ -1059,8 +1063,8 @@ class CMPopUpFlyInBackend {
 					$updatePosts = get_posts( $postsArgs );
 					if ( !empty( $updatePosts ) ) {
 						foreach ( $updatePosts as $onePost ) {
-							$serializedPostMeta								 = get_post_meta( $onePost->ID, '_cm_advertisement_items_custom_fields', true );
-							$postMeta[ 'cm-campaign-show-allpages' ]	 = 0;
+							$serializedPostMeta						 = get_post_meta( $onePost->ID, '_cm_advertisement_items_custom_fields', true );
+							$postMeta[ 'cm-campaign-show-allpages' ] = 0;
 							update_post_meta( $onePost->ID, '_cm_advertisement_items_custom_fields', $postMeta );
 						}
 					}
@@ -1081,31 +1085,39 @@ class CMPopUpFlyInBackend {
 					exit();
 				}
 			}
-//			$args = array(
-//				'posts_per_page'	 => -1,
-//				'fields'			 => 'ids',
-//				'post_type'			 => 'page',
-//				'suppress_filters'	 => true,
-//				'meta_query'		 => array(
-//					array(
-//						'key'	 => CMPopUpFlyInShared::CMPOPFLY_SELECTED_AD_ITEM,
-//						'value'	 => $post_id,
-//					),
-//				)
-//			);
-//
-//			$query	 = new WP_Query( $args );
-//			$pages	 = $query->get_posts();
-//			if ( !empty( $pages ) ) {
-//				foreach ( $pages as $pageId ) {
-//					update_post_meta( $pageId, CMPopUpFlyInShared::CMPOPFLY_SELECTED_AD_ITEM, '-1' );
-//				}
-//			}
+
 
 			$cmHelpItemOptions = filter_input( INPUT_POST, '_cm_advertisement_items_custom_fields', FILTER_DEFAULT, FILTER_REQUIRE_ARRAY );
 			if ( !empty( $cmHelpItemOptions ) && !empty( $cmHelpItemOptions[ 'cm-help-item-options' ] ) && !empty( $cmHelpItemOptions[ 'cm-help-item-options' ][ 0 ][ 'cm-help-item-url' ] ) ) {
 				$showHelpItemPageId = intval( $cmHelpItemOptions[ 'cm-help-item-options' ][ 0 ][ 'cm-help-item-url' ] );
 				if ( $showHelpItemPageId ) {
+					/*
+					 * First remove the association from previous post/page
+					 */
+					$args = array(
+						'posts_per_page'	 => -1,
+						'fields'			 => 'ids',
+						'post_type'			 => 'any',
+						'suppress_filters'	 => true,
+						'meta_query'		 => array(
+							array(
+								'key'	 => CMPopUpFlyInShared::CMPOPFLY_SELECTED_AD_ITEM,
+								'value'	 => $post_id,
+							),
+						)
+					);
+
+					$query	 = new WP_Query( $args );
+					$pages	 = $query->get_posts();
+					if ( !empty( $pages ) ) {
+						foreach ( $pages as $pageId ) {
+							delete_post_meta( $pageId, CMPopUpFlyInShared::CMPOPFLY_SELECTED_AD_ITEM );
+						}
+					}
+
+					/*
+					 * Then update the post meta in the "right" one
+					 */
 					update_post_meta( $showHelpItemPageId, CMPopUpFlyInShared::CMPOPFLY_SELECTED_AD_ITEM, $post_id );
 				}
 			}

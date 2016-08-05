@@ -3,29 +3,23 @@ Author URI: https://www.cminds.com/
 Author: CreativeMindsSolutions
 Contributors: CreativeMindsSolutions
 Tags: banner,footer,pop-up,popup,ads,promotion,advertize,flyin,image,html,promotion,campaign,events
-Stable Tag: 1.1.10
+Stable Tag: 1.1.13
 Requires at least: 3.9
-Tested up to: 4.5.2
+Tested up to: 4.6.0
 
-Create and add user friendly popup banners or fly-in to your site. Add responsive popup alerts and popup triggers for promotions or specials.
-
+Create and add user friendly popup banners to your WordPress site. Add responsive popup alerts and popup triggers for promotions or specials with either popup or fly-in banners.
 
 == Description ==
 
-The WordPress popup banners plugin lets users customize and promote events, products and offers on a WordPress site. 
-
-Users can add a responsive popup banner across the whole site or on specific pages and advertise upcoming specials in the middle or bottom of the page. 
-
-[youtube https://www.youtube.com/watch?v=BsAvS-FNeWI]
- 
- The popup plugin features popup triggers, the ability to add multiple popups, image and shortcode popups, various popup displays, and management of popup placement. 
+The WordPress popup banners plugin by CreativeMinds lets users customize and promote events, products and offers on a WordPress site. Users can add a responsive popup banner across the whole site or on specific pages and advertise upcoming specials in the middle or bottom of the page. The popup plugin features popup triggers, the ability to add multiple popups, image and shortcode popups, various popup displays, and management of popup placement. 
 
 This WordPress popup plugin is an excellent lead generation tool that can boost emails lists and creates highly converting popups. With the Pro Version, customize the look and timing of these popup banners and test the success of a campaign.
 
+[youtube https://www.youtube.com/watch?v=BsAvS-FNeWI]
 
 > #### Banner Plugin Site
-> * [Banner Plugin Site](https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/)
-> * [Plugin Pro Version Features](https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/#features)
+> * [Banner Plugin Site](https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/)
+> * [Plugin Pro Version Features](https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/#features)
 > * [User Guide](https://www.cminds.com/wordpress-plugins-knowledge-base-and-documentation/?hscat=350-cm-pop-up-banners-cmpb?showmidheader=No)
 > * [Video Tutorials](https://www.youtube.com/watch?v=BsAvS-FNeWI)
 
@@ -62,7 +56,7 @@ This WordPress popup plugin is an excellent lead generation tool that can boost 
 ---
 
 > #### Other Plugins By CM Plugins
-> * [Plugin Catalog](https://www.cminds.com/store)
+> * [Plugin Catalog](https://www.cminds.com/wordpress-plugins-library)
 > * [Free Plugins](https://profiles.wordpress.org/creativemindssolutions#content-plugins)
 
 ---
@@ -88,7 +82,7 @@ This WordPress popup plugin is an excellent lead generation tool that can boost 
 * [CM Ad Changer](http://wordpress.org/plugins/cm-ad-changer/) - Manage, Track and Report Advertising Campaigns Across Sites. Can turn your Turn your WP into an Ad Server
 * [CM Super ToolTip Glossary](http://wordpress.org/extend/plugins/enhanced-tooltipglossary/) - Easily creates a Glossary, Encyclopaedia or Dictionary of your website's terms and shows them as a tooltip in posts and pages when hovering. With many more powerful features.
 * [CM Download Manager](http://wordpress.org/extend/plugins/cm-download-manager) - Allows users to upload, manage, track and support documents or files in a download directory listing database for others to contribute, use and comment upon.
-* [CM MicroPayments](https://www.cminds.com/store/micropayments/) - Adds the in-site support for your own "virtual currency". The purpose of this plugin is to allow in-site transactions without the necessity of processing the external payments each time (quicker & easier). Developers can use it as a platform to integrate with their own plugins.
+* [CM MicroPayments](https://www.cminds.com/wordpress-plugins-library/micropayments/) - Adds the in-site support for your own "virtual currency". The purpose of this plugin is to allow in-site transactions without the necessity of processing the external payments each time (quicker & easier). Developers can use it as a platform to integrate with their own plugins.
 * [CM Video Tutorials](https://wordpress.org/plugins/cm-plugins-video-tutorials/) - Video Tutorials showing how to use WordPress and CM Plugins like Q&A Discussion Forum, Glossary, Download Manager, Ad Changer and more.
 * [CM OnBoarding](https://wordpress.org/plugins/cm-onboarding/) - Superb Guidance tool which improves the online experience and the user satisfaction.
 
@@ -98,7 +92,7 @@ This WordPress popup plugin is an excellent lead generation tool that can boost 
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
-> [View Release Notes in CM PopUp Banners Plugin Site](https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/#changelog)
+> [View Release Notes in CM PopUp Banners Plugin Site](https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/#changelog)
 >
 == Screenshots ==
 

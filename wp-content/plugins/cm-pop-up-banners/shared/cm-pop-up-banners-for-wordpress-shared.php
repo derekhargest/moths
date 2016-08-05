@@ -436,6 +436,11 @@ class CMPopUpFlyInShared {
 		. (($underlayType != 'no') ? ('#ouibounce-modal .underlay {background-color: ' . $underlayColor . ';}') : (""))
 		. (($deviceMinWidth && strpos( $deviceMinWidth, 'px' )) ? ('@media (max-width: ' . $deviceMinWidth . ') {#ouibounce-modal.cm-popup-modal {display: none !important;}}') : (''));
 
+		$custom_css .= '#ouibounce-modal .modal * {
+    max-width: 100%;
+    height: auto;
+}';
+
 		wp_add_inline_style( 'cm_ouibounce_css', $custom_css );
 		$content						 = '<div id="ouibounce-modal" class="cm-popup-modal">
                 ' . (($underlayType != 'no') ? ('<div class="underlay"></div>') : ("")) . '

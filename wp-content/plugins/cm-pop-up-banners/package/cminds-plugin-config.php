@@ -39,9 +39,9 @@ $cminds_plugin_config = array(
 	'plugin-menu-item'				 => CMPOPFLY_SLUG_NAME,
 	'plugin-textdomain'				 => CMPOPFLY_SLUG_NAME,
 	'plugin-userguide-key'			 => '350-cm-pop-up-banners-cmpb',
-	'plugin-store-url'				 => 'https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/',
+	'plugin-store-url'				 => 'https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/',
 	'plugin-review-url'				 => 'https://wordpress.org/support/view/plugin-reviews/cm-pop-up-banners',
-	'plugin-changelog-url'			 => 'https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/#changelog',
+	'plugin-changelog-url'			 => 'https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/#changelog',
 	'plugin-licensing-aliases'		 => array(),
 	'plugin-compare-table'			 => '<div class="pricing-table" id="pricing-table">
                 <ul>
@@ -71,7 +71,7 @@ $cminds_plugin_config = array(
                 <ul>
                     <li class="heading">Pro</li>
                     <li class="price">$29.00</li>
-                    <li class="action"><a href="https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/" style="background-color:darkblue;" target="_blank">More Info</a> &nbsp;&nbsp;<a href="https://www.cminds.com/?edd_action=add_to_cart&download_id=41966&wp_referrer=https://www.cminds.com/checkout/&edd_options[price_id]=1" target="_blank">Buy Now</a></li>
+                    <li class="action"><a href="https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/" style="background-color:darkblue;" target="_blank">More Info</a> &nbsp;&nbsp;<a href="https://www.cminds.com/?edd_action=add_to_cart&download_id=41966&wp_referrer=https://www.cminds.com/checkout/&edd_options[price_id]=1" target="_blank">Buy Now</a></li>
                     <li>Define campaign with banner</li>
                     <li>Choose between PopUp and Fly-in</li>
                     <li>Choose the width/height</li>
@@ -89,7 +89,7 @@ $cminds_plugin_config = array(
                     <li>Activate on JS event</li>
                     <li>Show once per user session</li>
                    <li class="price">$29.00</li>
-                   <li class="action"><a href="https://www.cminds.com/store/cm-pop-up-banners-plugin-for-wordpress/" style="background-color:darkblue;" target="_blank">More Info</a> &nbsp;&nbsp;<a href="https://www.cminds.com/?edd_action=add_to_cart&download_id=41966&wp_referrer=https://www.cminds.com/checkout/&edd_options[price_id]=1" target="_blank">Buy Now</a></li>
+                   <li class="action"><a href="https://www.cminds.com/wordpress-plugins-library/cm-pop-up-banners-plugin-for-wordpress/" style="background-color:darkblue;" target="_blank">More Info</a> &nbsp;&nbsp;<a href="https://www.cminds.com/?edd_action=add_to_cart&download_id=41966&wp_referrer=https://www.cminds.com/checkout/&edd_options[price_id]=1" target="_blank">Buy Now</a></li>
                  </ul>
 
             </div>',
