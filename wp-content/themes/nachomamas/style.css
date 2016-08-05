@@ -1077,7 +1077,6 @@ header {
 }
 
 .site-header-main {
-  position: fixed;
   z-index: 30;
   background: rgba(72, 56, 52, 0.8);
   width: 100%;
@@ -2038,7 +2037,7 @@ header {
   justify-content: center;
 }
 .banner.main-banner img.banner-image {
-  position: absolute;
+  position: relative;
   top: 0px;
   width: 100%;
   height: auto;
@@ -2047,6 +2046,14 @@ header {
 @media (min-width: 703px) and (max-width: 1140px) {
   .banner-overlay-notitle .overlay-logo {
     width: 10%;
+  }
+}
+@media (max-width: 1140px) {
+  .banner-overlay.home, .banner-overlay-notitle {
+    width: 100%;
+    z-index: 25;
+    background-attachment: fixed;
+    top: 37.75%;
   }
 }
 @media (min-width: 450px) {
