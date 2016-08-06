@@ -1,0 +1,132 @@
+08-05-2016 @ 11:09:07 - Info: Begin processing payment for order 866 for the amount of 30
+08-05-2016 @ 11:09:07 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 3000
+    [description] => Mamas on the Halfshell - Order 866
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_18f9wbLi97lxFTTQjowRyvc5
+)
+
+08-05-2016 @ 11:09:08 - Processing response: stdClass Object
+(
+    [id] => ch_18f9wdLi97lxFTTQaO92U8yc
+    [object] => charge
+    [amount] => 3000
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18f9wdLi97lxFTTQHyLIiT4Z
+            [object] => balance_transaction
+            [amount] => 3000
+            [available_on] => 1470700800
+            [created] => 1470409747
+            [currency] => usd
+            [description] => Mamas on the Halfshell - Order 866
+            [fee] => 117
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 117
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 2883
+            [source] => ch_18f9wdLi97lxFTTQaO92U8yc
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18f9wdLi97lxFTTQaO92U8yc
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1470409747
+    [currency] => usd
+    [customer] => 
+    [description] => Mamas on the Halfshell - Order 866
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18f9wdLi97lxFTTQaO92U8yc/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18f9wbLi97lxFTTQHyyYLhvD
+            [object] => card
+            [address_city] => Nottingham
+            [address_country] => US
+            [address_line1] => 9513 Perry Brook ct
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => MD
+            [address_zip] => 21236
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 9
+            [exp_year] => 2019
+            [fingerprint] => d5IxU1ZUPzUYycOQ
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Derek Hargest
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+08-05-2016 @ 11:09:09 - Successful charge: ch_18f9wdLi97lxFTTQaO92U8yc

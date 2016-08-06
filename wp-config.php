@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'tcf_mamas_live');
+define('DB_NAME', 'mamasmd_mamas_site');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'mamasmd_tcf');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Begr8today!');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
