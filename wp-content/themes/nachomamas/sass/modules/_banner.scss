@@ -65,8 +65,14 @@
   width: 100%;
   z-index: 25;
 	background-attachment: fixed;
-	top: 2.75%;
+	top: 0;
 	position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
 }
 
 .banner-overlay-notitle{
@@ -107,7 +113,6 @@
   width: 100%;
   z-index: 25;
 	background-attachment: fixed;
-	top: 37.75%;
 }
 }
 
@@ -119,12 +124,6 @@
       line-height: 1.15em;
     }
   }
-}
-
-@media (min-width: 1500px){
-.banner-overlay.home, .banner-overlay-notitle{
-	top: 8.75%;
-}
 }
 
 #banner{
