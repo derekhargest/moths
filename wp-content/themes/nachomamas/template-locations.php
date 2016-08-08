@@ -38,6 +38,7 @@ get_header(); ?>
 						<address>2901 O'Donnell St,<br />
 							 Baltimore, MD 21224<br /></address>
 								<p>T: 410-276-3160</p>
+									<p style="font-weight: bold;">Contact Us: <br/><a href="mailto: contactus@mamasmd.com">contactus@mamasmd.com</a></p>
 								<a href="https://goo.gl/maps/YtwsbY4iP9z">Get Directions</a>
 
 					</div>
