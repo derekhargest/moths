@@ -180,7 +180,7 @@ h2.entry-title, .home h1.entry-title, h1.page-title {
   color: #483834;
   text-align: center;
   line-height: 1em;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
 }
 
 h1.entry-title {
@@ -188,7 +188,7 @@ h1.entry-title {
   color: #483834;
   font-weight: 900;
   text-align: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
 }
 
 h2 {
@@ -1175,7 +1175,7 @@ header {
   -ms-transition: color 100ms ease-in-out;
   -o-transition: color 100ms ease-in-out;
   color: #fef2de;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
   letter-spacing: .05em;
 }
 .page-header .main-navigation li {
@@ -1211,7 +1211,7 @@ header {
   -ms-transition: color 100ms ease-in-out;
   -o-transition: color 100ms ease-in-out;
   color: #fef2de;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
   letter-spacing: .05em;
 }
 .main-navigation ul.menu > li.current-menu-item a {
@@ -1533,7 +1533,7 @@ header {
   float: left;
   font-size: 1.375em;
   text-transform: uppercase;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
   line-height: 1.35em;
   letter-spacing: 1px;
 }
@@ -1847,7 +1847,7 @@ header {
   margin-bottom: 5em;
 }
 .home-item h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
   color: #fef2de;
   padding-top: 1.5em;
   line-height: 1.25em;
@@ -1997,7 +1997,7 @@ header {
   background-attachment: fixed;
 }
 .banner-overlay h2, .banner-overlay h3, .banner-overlay-notitle h2, .banner-overlay-notitle h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
   color: #fef2de;
   text-align: center;
   font-size: 2em;
@@ -2541,7 +2541,7 @@ header {
   font-weight: 700;
   font-size: 1.875em;
   letter-spacing: normal;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
 }
 .events .event-item .event-info {
   width: 50%;
@@ -2592,7 +2592,7 @@ header {
 .location-menus .menu h4 {
   font-size: 2em;
   font-weight: 900;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif !important;
   letter-spacing: .05em;
 }
 .location-menus .menu .menu-content {
