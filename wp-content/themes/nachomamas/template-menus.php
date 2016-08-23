@@ -47,7 +47,7 @@ get_header(); ?>
 
 							<a href="<?php echo the_field('canton_dining_menu'); ?>" class="button"><span>Lunch &amp; Dinner</span></a>
 
-							<a href="<?php echo the_field('canton_specials_menu'); ?>" class="button"><span>Specials</span></a>
+							<a href="http://www.mamasmd.com/special_menus/Half Shell Dinner Specials.pdf" class="button"><span>Specials</span></a>
 
 							<a href="<?php echo the_field('canton_brunch_menu'); ?>" class="button"><span>Brunch</span></a>
 
