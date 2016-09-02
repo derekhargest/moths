@@ -35,14 +35,6 @@ get_header(); ?>
 
 	      	<div class="menu">
 
-						<h4>Canton Menus</h4>
-
-						<div class="menu-content">
-
-							<p>For Carryout Call: <span class="number">410-342-2922</span></p>
-
-						</div>
-
 						<div class="menu-buttons">
 
 							<a href="<?php echo the_field('canton_dining_menu'); ?>" class="button"><span>Lunch &amp; Dinner</span></a>
