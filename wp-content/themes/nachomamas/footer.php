@@ -2,10 +2,6 @@
 
 	<div class="container">
 
-	<div class="ou-container">
-		<a href="orderup.com/order-online/delivery/mama-s-on-the-half-shell?affiliate_id=1880"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/OU-Delivery-button.png" alt="order-up button" /></a>
-	</div>
-
 		<p>Sign up for updates in your inbox</p>
 
 		<div id="mc_embed_signup">
@@ -50,6 +46,10 @@
 <footer id="footer" class="site-footer">
 
 	<div class="container">
+
+		<div class="ou-container">
+			<a href="orderup.com/order-online/delivery/mama-s-on-the-half-shell?affiliate_id=1880"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/OU-Delivery-button.png" alt="order-up button" /></a>
+		</div>
 
     <div class="footer-marker">
 
