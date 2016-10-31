@@ -1472,6 +1472,17 @@ header {
   padding-left: 4px;
 }
 
+.ou-container {
+  width: 25%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+.ou-container img {
+  width: 100%;
+  height: auto;
+}
+
 .footer-signup input.button, .footer-signup #mc_embed_signup input.button, #mc_embed_signup .footer-signup input.button {
   background: #483834;
   position: absolute;

@@ -23,6 +23,17 @@
  padding-left: 4px;
 }
 
+.ou-container{
+	width: 25%;
+	min-width: 300px;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
 .footer-signup input.button{
   background: $c-light-brown;
   position: absolute;
